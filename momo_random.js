@@ -43,7 +43,7 @@
  //#region 固定代码
  // ============================================变量检查============================================ \\
 async function MM() {
-     let url = require('./MMSLS').MMSL_random;
+     let url = require('./MMSLS.js').MMSL_random;
      if (url) {
         return true;
      } else {
